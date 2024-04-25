@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Foodzz Infinity</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="dominos.html">
+                <img src="images/dominos.jpg" alt=""  width="125px" style="border-radius: 50%;">
+            </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html">
+
+                <img src="images/cart.png" alt="" width="30px" height="30px" />
+            </a>
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    </div>
+	<div class="dominos-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>All</option>
+                <option>Veg</option>
+                <option>Non-Veg</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <a href="The_4_cheese_pizza.html">
+                    <img src="images/4_cheese_pizza.jpg" alt="" />
+                </a>
+                <a href="The_4_cheese_pizza.html">          
+                    <h4>The 4 Cheese Pizza</h4>
+                </a>
+                
+                <p>Rs.639</p>
+            </div>
+            <div class="col-4">
+                <img src="images/5_chicken_feast_pizza.jpg" alt="" />
+                <h4>The 5 Chicken Feast Pizza</h4>
+                <p>Rs.699</p>
+            </div>
+            <div class="col-4">
+                <img src="images/cheese_dominator.jpg" alt="" />
+                <h4>The Cheese Dominator</h4>
+                <p>Rs.639</p>
+            </div>
+            <div class="col-4">
+                <img src="images/chicken_keema_paratha_pizza.jpg" alt="" />
+                <h4>Chicken Keema Paratha Pizza</h4>
+                <p>Rs.249</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/chicken_maximus.jpg" alt="" />
+                <h4>Chicken Maximus</h4>
+                <p>Rs.699</p>
+            </div>
+            <div class="col-4">
+                <img src="images/corn_n_cheese_paratha_pizza.jpg" alt="" />
+                <h4>Corn n Cheese Paratha Pizza</h4>
+                <p>Rs.179</p>
+            </div>
+            <div class="col-4">
+                <img src="images/creamy_tomato_pasta_pizza.jpg" alt="" />
+                <h4>Creamy Tomato Pasta Pizza - Veg</h4>
+                <p>Rs.459</p>
+            </div>
+            <div class="col-4">
+                <img src="images/indo_fusion_chicken_pizza.jpg" alt="" />
+                <h4>Indo Fusion Chicken Pizza</h4>
+                <p>Rs.699</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/paneer_paratha_pizza.jpg" alt="" />
+                <h4>Paneer Paratha Pizza</h4>
+                <p>Rs.209</p>
+            </div>
+            <div class="col-4">
+                <img src="images/red_velvet_lava_cake.jpg" alt="" />
+                <h4>Red Velvet Lava Cake</h4>
+                <p>Rs.139</p>
+            </div>
+            <div class="col-4">
+                <img src="images/spiced_double_chicken.jpg" alt="" />
+                <h4>Spiced Double Chicken</h4>
+                <p>Rs.559</p>
+            </div>
+            <div class="col-4">
+                <img src="images/unthinkable_pizza.jpg" alt="" />
+                <h4>The Unthinkable Pizza</h4>
+                <p>Rs.349</p>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/foodzz_infinity.jpg" alt="" style="border-radius: 50%;">
+                    <p>Our purpose is to give the best quality product to the customer and bring them back and make them
+                        happy.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Food Zone</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="navbar">
+				<div class = "logo">
+					<a href = "index.html">
+					<img src="Images/foodzone.png" alt ="" width="150">
+					</a>
+				</div>
+				<nav>
+					<ul id = "menuitems">
+					<li><a href = "index.html">Home</a></li>
+					<li><a href = "products.html">Product</a></li>
+					<li><a href = "aboutus.html">About</a></li>
+					<li><a href = "login.html">Login</a></li>
+					</ul>
+				</nav>
+			</div>
+				<a href="cart.html">
+
+                    <img src="images/cart.png" alt="" width="30px" height="30px" />
+                </a>
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+		</div>
+		<div class = "description">
+			<br><h1>Food Zone</h1>
+				<br><p>Hundreds of flavors under one roof.</p>
+		</div>
+	</div>
+</body>
+</html>
